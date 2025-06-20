@@ -8,6 +8,7 @@ import EventPage from './components/EventPage';
 import NowMovies from './components/NowMovies';
 import Special from './components/Special';
 
+
 function App() {
   const navigate = useNavigate();
   const [ evtId, setEvtId ] = useState(1);
@@ -28,6 +29,7 @@ function App() {
                 <div className='evt_wrap'>
                   <ul className='e1'>
                     <li className='evt1'>
+                      <img src={`${import.meta.env.BASE_URL}images/~.jpg`} />
                       <img src='/images/event1.jpg' alt=''
                           onClick={()=>{ setEvtId(1); navigate('/event/'+1); }}/>
                     </li>

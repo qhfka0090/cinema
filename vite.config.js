@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'https://github.com/qhfka0090/cinema.git',
+  base:'/cinema/',
   plugins: [react()],
 })
